@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Shopping List</string>
+    <string name="insertProduct">Insert product name</string>
+    <string name="shoppingList">Shopping List</string>
+    <string name="edit">Edit</string>
+    <string name="clearButton">Clear all Products</string>
+    <string name="addButton">Add</string>
+    <string name="erase">Erase</string>
+    <string name="cancel">Cancel</string>
+    <string name="OK">OK</string>
+    <string name="missingTitle">Missing Text</string>
+    <string name="missingMessage">Please enter a product name</string>
+    <string name="confirmTitle">Are You Sure?</string>
+    <string name="confirmMessage">This will delete all saved products</string>
+    <string name="action_settings">Settings</string>
+</resources>

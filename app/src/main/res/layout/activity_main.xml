@@ -1,0 +1,66 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="5dp"
+    android:stretchColumns="*" android:background="@android:color/white">
+
+    <!-- tableRow0 -->
+
+    <!-- tableRow1 -->
+    <TableRow android:id="@+id/tableRow1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <EditText android:layout_height="wrap_content"
+            android:hint="@string/insertProduct" android:inputType="text"
+            android:id="@+id/prodottoEditText" android:imeOptions="actionDone"
+            android:layout_gravity="center_vertical"></EditText>
+        <Button android:id="@+id/aggiungiButton"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/addButton"></Button>
+    </TableRow>
+
+    <!-- tableRow2 -->
+    <TableRow android:id="@+id/tableRow2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/light_orange">
+
+        <TextView android:layout_height="wrap_content"
+            android:id="@+id/taggedSearchesTextView"
+            android:text="@string/shoppingList"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_span="2" android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:padding="5dp"></TextView>
+    </TableRow>
+
+    <!-- tableRow3 -->
+    <TableRow android:id="@+id/tableRow3"
+        android:background="@color/light_orange"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:layout_weight="1">
+
+        <ScrollView android:id="@+id/queryScrollView"
+            android:layout_width="match_parent"
+            android:layout_span="2" android:padding="5dp">
+            <TableLayout android:id="@+id/queryTableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:padding="5dp"
+                android:stretchColumns="*"></TableLayout>
+        </ScrollView>
+    </TableRow>
+
+    <!-- tableRow4 -->
+    <TableRow android:id="@+id/tableRow4"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clearButton"
+            android:id="@+id/eliminaProdottiButton"
+            android:layout_span="2" android:layout_marginTop="5dp"></Button>
+    </TableRow>
+</TableLayout>

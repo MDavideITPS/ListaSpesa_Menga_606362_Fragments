@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lista Spesa</string>
+    <string name="OK">OK</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="addButton">Aggiungi</string>
+    <string name="cancel">Annulla</string>
+    <string name="clearButton">Elimina tutti i prodotti</string>
+    <string name="confirmMessage">Questo cancellerà tutti i prodotti salvati</string>
+    <string name="confirmTitle">Sei sicuro?</string>
+    <string name="edit">Modifica</string>
+    <string name="erase">Cancella</string>
+    <string name="insertProduct">Inserisci il nome del prodotto</string>
+    <string name="missingMessage">Inserisci il nome del prodotto</string>
+    <string name="missingTitle">Testo mancante</string>
+    <string name="shoppingList">Lista Spesa</string>
+</resources>
